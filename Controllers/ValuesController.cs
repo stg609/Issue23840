@@ -27,7 +27,7 @@ namespace WebApplication34.Controllers
         }
 
         [HttpPost]
-        [RequestSizeLimit(10000)]
+        [RequestSizeLimit(4194304)]
         public ActionResult Post(IFormFile video)
         {
             return Ok();
